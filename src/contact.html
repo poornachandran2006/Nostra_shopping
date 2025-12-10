@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="./index.js"></script>
+</head>
+
+<body>
+    <!--navbar-->
+    <div class="shadow-xl bg-white flex justify-between items-center p-2 fixed top-0 w-full z-50">
+        <h1 class="text-3xl font-bold">Nostra</h1>
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href="./home.html" class="hover:underline">Home</a></li>
+                <li><a href="./collections.html" class="hover:underline">Collections</a></li>
+                <li><a href="./contact.html" class="hover:underline">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--contact form-->
+    <div class="flex justify-center">
+        <div class="bg-blue-950 w-4/5 mt-20 text-white rounded-lg">
+            <div class="p-10">
+                <h1 class="font-bold text-2xl mx-8 mt-5">Contact Us</h1>
+                <form class="mt-4">
+                    <label for="name" class="mx-8">Name:</label><br>
+                    <input type="text" id="name" class="border-2 border-blue-950 rounded-lg p-4 mx-8 w-11/12 mb-4 focus:outline-none focus:border-none">
+                    <br>
+                    <label for="email" class="mx-8">Email:</label>
+                    <br>
+                    <input type="email" id="email" class="border-2 border-blue-950 rounded-lg p-4 mx-8 w-11/12 mb-4 focus:outline-none focus:border-none">
+                    <br>
+                    <label for="message" class="mx-8">Message:</label>
+                    <br>
+                    <textarea id="message" class="border-2 border-blue-950 rounded-lg p-4 mx-8 w-11/12 mb-4 focus:outline-none focus:border-none" rows="5"></textarea>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="bg-blue-950 text-white p-8 mt-16">
+        <h1 class="font-bold text-2xl">Nostra</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, error?</p>
+        <i class="fab fa-instagram pr-2"></i>
+        <i class="fab fa-twitter px-2"></i>
+        <i class="fab fa-facebook px-2"></i>
+    </div>
+</body>
+
+</html>
